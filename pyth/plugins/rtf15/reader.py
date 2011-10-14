@@ -489,7 +489,6 @@ class Group(object):
                 char = code.decode(self.charset, self.reader.errors)
             else:
                 char = chr(code).decode(self.charset, self.reader.errors)
-
         self.content.append(char)
 
 
